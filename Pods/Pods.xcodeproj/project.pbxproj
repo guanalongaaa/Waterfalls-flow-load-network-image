@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C9B6B79917F68590AD6B0802C767009 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA870174F3E98BAFDE1D92B3C10484E /* DDXMLNode.m */; };
+		1C3C32DF6C5DAE19C7FEEB4F1B38DBAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		427866845422390B1D6DC4FBBD70536B /* KissXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADC3C98B7688DA0DE4DED6F5C105291 /* KissXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61683470A5FAE96F775AAF6B5AA3857F /* DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 7323C0E6FE29BB2C8237EE75CDC21026 /* DDXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B3AB6658D3B2331FBF96257B0D0F7AF /* KissXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E35DA6F18C3F8B5A3940D55707AE44 /* KissXML-dummy.m */; };
+		7F3DEB5AA80702F60962DFB27EDF11BA /* Pods-瀑布流-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B7344408EE050A8B80DC6966EB0BD2 /* Pods-瀑布流-dummy.m */; };
+		8BB473EABD415ABF4F6C4D8CE5320E15 /* NSString+DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 0425F0F91A7D65FD22876FE47DAB87AD /* NSString+DDXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DADFA884FCBF74D87EBBD2BF877BF30 /* DDXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = E930FCCB4056BA5BC71BD47CD0096A3E /* DDXMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA3958CD5A44D2C2E31FE45A6756ADB2 /* DDXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 45478EB8DB3503B43182BE949257E748 /* DDXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2C3DD2AFE30C003EF6B5F1F78882A2E /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E04BD8147C7AD286C2D65E8E2105D3 /* DDXMLDocument.m */; };
+		BD0A681D7509D84E968FD647ECD1486B /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 966F2FA6ED075721CACCB2FB61B66BAB /* DDXMLElementAdditions.m */; };
+		C00872E52E3B5583729015A63107C33B /* DDXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 085C8979D240FAF671256B9698523CC9 /* DDXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C481F8D648A75FA1A3053E8915933D43 /* DDXMLPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F9EA5F882C5072658EE4626C89BAD238 /* DDXMLPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C7E7AD55E43B3350B6D7AF584213D363 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D2F2CB14451E3D68FE70B18D57B37FE9 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F35A18242DF38AE11FACD27C80BA45 /* DDXMLElement.m */; };
+		E292ECE1B9A912E91CF47861D8F6864E /* DDXMLElementAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B98AAA3AB3883A4F923A801F55D92247 /* DDXMLElementAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7FF36C65BFC0E5CF84AEF6F2A5740F0 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B309DE9133A0962C32CBB6DAA63119 /* NSString+DDXML.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73C705D5982117A8F306C9E51D1A888A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85407D653E1E1525EECFECD395E9C4BC;
+			remoteInfo = KissXML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0425F0F91A7D65FD22876FE47DAB87AD /* NSString+DDXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DDXML.h"; path = "KissXML/Categories/NSString+DDXML.h"; sourceTree = "<group>"; };
+		04E35DA6F18C3F8B5A3940D55707AE44 /* KissXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KissXML-dummy.m"; sourceTree = "<group>"; };
+		085C8979D240FAF671256B9698523CC9 /* DDXMLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLDocument.h; path = KissXML/DDXMLDocument.h; sourceTree = "<group>"; };
+		09F35A18242DF38AE11FACD27C80BA45 /* DDXMLElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLElement.m; path = KissXML/DDXMLElement.m; sourceTree = "<group>"; };
+		14596039F479B96FD779CC5D6B4F522E /* KissXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KissXML-prefix.pch"; sourceTree = "<group>"; };
+		1FA870174F3E98BAFDE1D92B3C10484E /* DDXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLNode.m; path = KissXML/DDXMLNode.m; sourceTree = "<group>"; };
+		20EF9564F88289C1F56C51CFC284BBEE /* Pods-瀑布流-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-瀑布流-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45463D723C6574E29F0F6C362FD42913 /* Pods-瀑布流-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-瀑布流-frameworks.sh"; sourceTree = "<group>"; };
+		45478EB8DB3503B43182BE949257E748 /* DDXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLNode.h; path = KissXML/DDXMLNode.h; sourceTree = "<group>"; };
+		65A5B90F7AAEA538495C6D1F744B269D /* Pods-瀑布流.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-瀑布流.release.xcconfig"; sourceTree = "<group>"; };
+		6617A4D7BA8ADAA03CD3813A856ABFE4 /* libKissXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKissXML.a; path = libKissXML.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADC3C98B7688DA0DE4DED6F5C105291 /* KissXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KissXML.h; path = KissXML/KissXML.h; sourceTree = "<group>"; };
+		72E04BD8147C7AD286C2D65E8E2105D3 /* DDXMLDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLDocument.m; path = KissXML/DDXMLDocument.m; sourceTree = "<group>"; };
+		7323C0E6FE29BB2C8237EE75CDC21026 /* DDXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXML.h; path = KissXML/DDXML.h; sourceTree = "<group>"; };
+		74B309DE9133A0962C32CBB6DAA63119 /* NSString+DDXML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DDXML.m"; path = "KissXML/Categories/NSString+DDXML.m"; sourceTree = "<group>"; };
+		8867DC5C210F682C0992E3B8B355076A /* Pods-瀑布流-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-瀑布流-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		966F2FA6ED075721CACCB2FB61B66BAB /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLElementAdditions.m; path = KissXML/Additions/DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		B98AAA3AB3883A4F923A801F55D92247 /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLElementAdditions.h; path = KissXML/Additions/DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		C0D7545FF3F6027FA0B9B1F77438F25D /* Pods-瀑布流.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-瀑布流.debug.xcconfig"; sourceTree = "<group>"; };
+		C1B7344408EE050A8B80DC6966EB0BD2 /* Pods-瀑布流-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-瀑布流-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DDC6464FC40DB0F699DAEEFEB267DC70 /* KissXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KissXML.xcconfig; sourceTree = "<group>"; };
+		E930FCCB4056BA5BC71BD47CD0096A3E /* DDXMLElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLElement.h; path = KissXML/DDXMLElement.h; sourceTree = "<group>"; };
+		EB0AC8726CA03F82DAE76963D3053207 /* Pods-瀑布流-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-瀑布流-acknowledgements.plist"; sourceTree = "<group>"; };
+		F81D331B683971217EA271C3A2727DCE /* libPods-瀑布流.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-瀑布流.a"; path = "libPods-瀑布流.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9EA5F882C5072658EE4626C89BAD238 /* DDXMLPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLPrivate.h; path = KissXML/Private/DDXMLPrivate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35ED1F15AB1FCCF279A3E08507568783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E7AD55E43B3350B6D7AF584213D363 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52241EECC4E4FA254010FF3C07D03C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3C32DF6C5DAE19C7FEEB4F1B38DBAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32D488EF25351628F342F420C364DA37 /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				D63795D8601B3C8BCC60E79294B9AEA2 /* Core */,
+				3AC04AF367973A6E3403FEF680201DEC /* Support Files */,
+			);
+			name = KissXML;
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		3AC04AF367973A6E3403FEF680201DEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDC6464FC40DB0F699DAEEFEB267DC70 /* KissXML.xcconfig */,
+				04E35DA6F18C3F8B5A3940D55707AE44 /* KissXML-dummy.m */,
+				14596039F479B96FD779CC5D6B4F522E /* KissXML-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KissXML";
+			sourceTree = "<group>";
+		};
+		445F9AE7DB47367687E754E2E541DDE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32D488EF25351628F342F420C364DA37 /* KissXML */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		63AC26138F3D650FFC37DBBAC78A6F5E /* Pods-瀑布流 */ = {
+			isa = PBXGroup;
+			children = (
+				20EF9564F88289C1F56C51CFC284BBEE /* Pods-瀑布流-acknowledgements.markdown */,
+				EB0AC8726CA03F82DAE76963D3053207 /* Pods-瀑布流-acknowledgements.plist */,
+				C1B7344408EE050A8B80DC6966EB0BD2 /* Pods-瀑布流-dummy.m */,
+				45463D723C6574E29F0F6C362FD42913 /* Pods-瀑布流-frameworks.sh */,
+				8867DC5C210F682C0992E3B8B355076A /* Pods-瀑布流-resources.sh */,
+				C0D7545FF3F6027FA0B9B1F77438F25D /* Pods-瀑布流.debug.xcconfig */,
+				65A5B90F7AAEA538495C6D1F744B269D /* Pods-瀑布流.release.xcconfig */,
+			);
+			name = "Pods-瀑布流";
+			path = "Target Support Files/Pods-瀑布流";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				445F9AE7DB47367687E754E2E541DDE0 /* Pods */,
+				B5E113CACBDD766353BD278E196DF72A /* Products */,
+				9A834067A7FECBE831F1E32BF7B73D1E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A834067A7FECBE831F1E32BF7B73D1E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63AC26138F3D650FFC37DBBAC78A6F5E /* Pods-瀑布流 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B5E113CACBDD766353BD278E196DF72A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6617A4D7BA8ADAA03CD3813A856ABFE4 /* libKissXML.a */,
+				F81D331B683971217EA271C3A2727DCE /* libPods-瀑布流.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D63795D8601B3C8BCC60E79294B9AEA2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7323C0E6FE29BB2C8237EE75CDC21026 /* DDXML.h */,
+				085C8979D240FAF671256B9698523CC9 /* DDXMLDocument.h */,
+				72E04BD8147C7AD286C2D65E8E2105D3 /* DDXMLDocument.m */,
+				E930FCCB4056BA5BC71BD47CD0096A3E /* DDXMLElement.h */,
+				09F35A18242DF38AE11FACD27C80BA45 /* DDXMLElement.m */,
+				B98AAA3AB3883A4F923A801F55D92247 /* DDXMLElementAdditions.h */,
+				966F2FA6ED075721CACCB2FB61B66BAB /* DDXMLElementAdditions.m */,
+				45478EB8DB3503B43182BE949257E748 /* DDXMLNode.h */,
+				1FA870174F3E98BAFDE1D92B3C10484E /* DDXMLNode.m */,
+				F9EA5F882C5072658EE4626C89BAD238 /* DDXMLPrivate.h */,
+				6ADC3C98B7688DA0DE4DED6F5C105291 /* KissXML.h */,
+				0425F0F91A7D65FD22876FE47DAB87AD /* NSString+DDXML.h */,
+				74B309DE9133A0962C32CBB6DAA63119 /* NSString+DDXML.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		72DA2E4DD0668049C68177E004A7AEDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61683470A5FAE96F775AAF6B5AA3857F /* DDXML.h in Headers */,
+				C00872E52E3B5583729015A63107C33B /* DDXMLDocument.h in Headers */,
+				8DADFA884FCBF74D87EBBD2BF877BF30 /* DDXMLElement.h in Headers */,
+				E292ECE1B9A912E91CF47861D8F6864E /* DDXMLElementAdditions.h in Headers */,
+				AA3958CD5A44D2C2E31FE45A6756ADB2 /* DDXMLNode.h in Headers */,
+				C481F8D648A75FA1A3053E8915933D43 /* DDXMLPrivate.h in Headers */,
+				427866845422390B1D6DC4FBBD70536B /* KissXML.h in Headers */,
+				8BB473EABD415ABF4F6C4D8CE5320E15 /* NSString+DDXML.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		42EACF1971C4CA93F6C80C7332A0CDCC /* Pods-瀑布流 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20E6661BB979264B8F522563157500B /* Build configuration list for PBXNativeTarget "Pods-瀑布流" */;
+			buildPhases = (
+				14A991C28C4AD759C37F9071DAF8A3F3 /* Sources */,
+				35ED1F15AB1FCCF279A3E08507568783 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A04995C63E0ACA31F7C30C971F9AEB68 /* PBXTargetDependency */,
+			);
+			name = "Pods-瀑布流";
+			productName = "Pods-瀑布流";
+			productReference = F81D331B683971217EA271C3A2727DCE /* libPods-瀑布流.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		85407D653E1E1525EECFECD395E9C4BC /* KissXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FFF3B4C45C0DD3A8FADFC6E762CC19 /* Build configuration list for PBXNativeTarget "KissXML" */;
+			buildPhases = (
+				D18CFBDA49CD78342FA489389E621C93 /* Sources */,
+				52241EECC4E4FA254010FF3C07D03C0C /* Frameworks */,
+				72DA2E4DD0668049C68177E004A7AEDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KissXML;
+			productName = KissXML;
+			productReference = 6617A4D7BA8ADAA03CD3813A856ABFE4 /* libKissXML.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B5E113CACBDD766353BD278E196DF72A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85407D653E1E1525EECFECD395E9C4BC /* KissXML */,
+				42EACF1971C4CA93F6C80C7332A0CDCC /* Pods-瀑布流 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14A991C28C4AD759C37F9071DAF8A3F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3DEB5AA80702F60962DFB27EDF11BA /* Pods-瀑布流-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18CFBDA49CD78342FA489389E621C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C3DD2AFE30C003EF6B5F1F78882A2E /* DDXMLDocument.m in Sources */,
+				D2F2CB14451E3D68FE70B18D57B37FE9 /* DDXMLElement.m in Sources */,
+				BD0A681D7509D84E968FD647ECD1486B /* DDXMLElementAdditions.m in Sources */,
+				0C9B6B79917F68590AD6B0802C767009 /* DDXMLNode.m in Sources */,
+				7B3AB6658D3B2331FBF96257B0D0F7AF /* KissXML-dummy.m in Sources */,
+				E7FF36C65BFC0E5CF84AEF6F2A5740F0 /* NSString+DDXML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A04995C63E0ACA31F7C30C971F9AEB68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KissXML;
+			target = 85407D653E1E1525EECFECD395E9C4BC /* KissXML */;
+			targetProxy = 73C705D5982117A8F306C9E51D1A888A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		567E6B7C729C0DA58F78DD99DA44995D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65A5B90F7AAEA538495C6D1F744B269D /* Pods-瀑布流.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7E3A9D897003BFB6256755005B6288C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC6464FC40DB0F699DAEEFEB267DC70 /* KissXML.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML/KissXML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		858D8AAD3BBD34AD48D1A2519013DF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC6464FC40DB0F699DAEEFEB267DC70 /* KissXML.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML/KissXML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8B07FAAB2585A901DE1DD40600680BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D7545FF3F6027FA0B9B1F77438F25D /* Pods-瀑布流.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27FFF3B4C45C0DD3A8FADFC6E762CC19 /* Build configuration list for PBXNativeTarget "KissXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3A9D897003BFB6256755005B6288C4 /* Debug */,
+				858D8AAD3BBD34AD48D1A2519013DF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20E6661BB979264B8F522563157500B /* Build configuration list for PBXNativeTarget "Pods-瀑布流" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B07FAAB2585A901DE1DD40600680BA0 /* Debug */,
+				567E6B7C729C0DA58F78DD99DA44995D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
